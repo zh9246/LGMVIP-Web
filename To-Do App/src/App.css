@@ -1,0 +1,74 @@
+body {
+  background-color: aliceblue;
+  font-family: ABeeZee;
+}
+.complete {
+  background-color: forestgreen;
+  opacity: 0.5;
+  text-decoration: line-through;
+}
+.header {
+  font-size: large;
+  text-align: center;
+}
+.hide {
+  display: none;
+}
+.icons {
+  cursor: pointer;
+  display: flex;
+  font-size: x-large;
+  gap: 12px;
+}
+.task-div {
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 67px;
+  box-shadow: 5px 5px 12px hsla(0, 0%, 0%, 0.25);
+  display: flex;
+  justify-content: space-between;
+  margin: 5%;
+  padding: 16px;
+}
+.todo-form {
+  display: flex;
+  font-size: medium;
+  gap: 12px;
+  margin-top: 5%;
+  width: 100%;
+}
+.todo-form button {
+  background-color: aliceblue;
+  border-radius: 67px;
+  cursor: pointer;
+  font-family: ABeeZee;
+  font-size: large;
+  font-weight: bold;
+  padding: 12px;
+  width: 128px;
+}
+.todo-form button:hover {
+  background-color: black;
+  color: aliceblue;
+  font-weight: bold;
+}
+.todo-form input {
+  border-radius: 33px;
+  font-family: ABeeZee;
+  font-size: large;
+  text-align: center;
+  width: 320px;
+}
+.Todo-list-container {
+  align-items: flex-start;
+  background-color: blanchedalmond;
+  border-radius: 33px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  min-height: 520px;
+  width: 720px;
+}
+.todo-text {
+  font-size: x-large;
+}
